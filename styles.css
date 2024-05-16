@@ -1,0 +1,111 @@
+/* Navigation bar styles */
+body {
+    margin: 0;
+    background-color: #efebeb84;
+        font-family: 'Montserrat';
+        font-weight: 100; 
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 10px 0px; /* Adjust padding as desired */
+    background-color: none; /* Set background color */
+  }
+  
+  .logo {
+    font-size: 20px; /* Adjust font size for logo */
+    font-weight: bold; /* Make logo text bold */
+    color: black; /* Set logo text color */
+  }
+  
+  .nav-links {
+    list-style: none; /* Remove default list style (bullets) */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px; /* Add spacing between navigation links */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Remove underline on hover */
+    color: black; /* Set link text color */
+  }
+  
+  .nav-links a:hover {
+    color: #333; /* Change link color on hover */
+  }
+  
+  /* Custom cursor styles (replace with your desired styles) */
+  body {
+    cursor: none; /* Hide default cursor */
+  }
+  
+  
+  /* Marquee Styles */
+
+.sliding {
+    
+    overflow: hidden; /* Hide overflow for smooth scrolling */
+    width: 100%; /* Match container width to full page */
+    height:450px; /* Set desired height for the marquee */
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:2000%; 
+    background: none;
+    background-repeat: no-repeat;  /* Prevent repeating the gradient */
+  }
+  
+  #static-text{
+    font-family: 'Montserrat';
+    padding: 0px 20px 10px 100px ;
+    font-weight: 100; 
+    font-size: 200%;
+  }
+  
+  #link{
+    padding: 20px 20px 10px 100px ;
+  }
+
+  #texting
+       {
+    font-family: "Cormorant", serif;
+    padding: 400px 150px 200px 150px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 400%;
+    font-style: normal;
+  }
+  .cursor {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(26, 23, 23, 0.5); /* White border with 50% opacity */
+    border-radius: 50%;
+    z-index: 9999; /* Ensure cursor stays on top */
+  }
+  
+  .cursor::after {
+    
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: rgb(15, 15, 15); /* Change dot color */
+    border-radius: 50%;
+  }
+  
+  
+  
+  
